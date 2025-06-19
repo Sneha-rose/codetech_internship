@@ -1,0 +1,205 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "good morning", "hey"],
+      "responses": [
+        "Hello!",
+        "Hi there!",
+        "Greetings!",
+        "Good to see you!",
+        "Hey! How can I help you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you later", "take care"],
+      "responses": [
+        "Goodbye!",
+        "See you later!",
+        "Take care!",
+        "Bye! Have a great day!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thank you", "thanks", "appreciate it", "many thanks"],
+      "responses": [
+        "You're welcome!",
+        "No problem!",
+        "Glad to help!",
+        "Anytime!"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": ["help", "need assistance", "can you help me", "support"],
+      "responses": [
+        "Sure! How can I assist you?",
+        "What do you need help with?",
+        "I'm here to help!"
+      ]
+    },
+    {
+      "tag": "joke",
+      "patterns": ["tell me a joke", "make me laugh", "joke", "funny"],
+      "responses": [
+        "Why don't scientists trust atoms? Because they make up everything!",
+        "I told my computer I needed a break, and now it won't stop sending me beach wallpapers!"
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "what's the weather",
+        "weather forecast",
+        "is it going to rain",
+        "temperature"
+      ],
+      "responses": [
+        "I can't check the weather right now, but you can use a weather app or website!",
+        "It's always sunny in my world!"
+      ]
+    },
+    {
+      "tag": "news",
+      "patterns": [
+        "what's the news",
+        "latest news",
+        "current events",
+        "headlines"
+      ],
+      "responses": [
+        "I can't fetch the news, but you can check a news website or app for the latest updates!",
+        "Stay informed with your favorite news source!"
+      ]
+    },
+    {
+      "tag": "quote",
+      "patterns": [
+        "inspire me",
+        "motivational quote",
+        "quote of the day",
+        "inspiration"
+      ],
+      "responses": [
+        "Believe you can and you're halfway there. -Theodore Roosevelt",
+        "The only way to do great work is to love what you do. -Steve Jobs"
+      ]
+    },
+    {
+      "tag": "music",
+      "patterns": ["play music", "music", "song", "tune"],
+      "responses": [
+        "I can't play music, but you can use a music app or service to enjoy your favorite tunes!",
+        "Music is the soundtrack of life!"
+      ]
+    },
+    {
+      "tag": "search",
+      "patterns": ["search for", "find", "look up", "information"],
+      "responses": [
+        "I can't perform searches, but you can use a search engine like Google!",
+        "Searching is fun! What do you want to find?"
+      ]
+    },
+    {
+      "tag": "calculator",
+      "patterns": ["calculate", "math", "solve", "equation"],
+      "responses": [
+        "I can't do calculations, but you can use a calculator app or website!",
+        "Math is hard, but calculators make it easier!"
+      ]
+    },
+    {
+      "tag": "reminder",
+      "patterns": ["set a reminder", "remind me", "alert", "notification"],
+      "responses": [
+        "I can't set reminders, but you can use a reminder app or service!",
+        "Don't forget to set your reminders!"
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": ["contact", "get in touch", "reach out", "call"],
+      "responses": [
+        "I can't make calls, but you can use your phone to contact someone!",
+        "Feel free to reach out to your contacts!"
+      ]
+    },
+    {
+      "tag": "feedback",
+      "patterns": ["feedback", "suggestions", "improvements", "comments"],
+      "responses": [
+        "I appreciate your feedback! How can I improve?",
+        "Your suggestions are welcome! What do you think?"
+      ]
+    },
+    {
+      "tag": "compliment",
+      "patterns": ["you are great", "good job", "well done", "nice work"],
+      "responses": [
+        "Thank you! You're awesome too!",
+        "I appreciate the compliment!",
+        "You're making me blush!"
+      ]
+    },
+    {
+      "tag": "insult",
+      "patterns": ["you are stupid", "dumb bot", "useless", "idiot"],
+      "responses": [
+        "I may not be perfect, but I'm here to help!",
+        "Insults won't get you anywhere, but I'm still here for you!"
+      ]
+    },
+    {
+      "tag": "advice",
+      "patterns": [
+        "give me advice",
+        "what should I do",
+        "help me decide",
+        "suggestion"
+      ],
+      "responses": [
+        "Always trust your instincts!",
+        "Sometimes the best decision is to take a break and think it over.",
+        "What works for one person may not work for another, so choose wisely!"
+      ]
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "what are your hours",
+        "when are you available",
+        "business hours",
+        "open hours"
+      ],
+      "responses": [
+        "I'm available 24/7!",
+        "You can reach me anytime, day or night!"
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "where are you located",
+        "your location",
+        "where can I find you",
+        "address"
+      ],
+      "responses": [
+        "I'm a virtual assistant, so I exist in the digital world!",
+        "You can find me online anytime!"
+      ]
+    },
+    {
+      "tag": "default",
+      "patterns": ["", "unknown", "not sure", "I don't understand"],
+      "responses": [
+        "I'm not sure how to respond to that.",
+        "Can you please rephrase?",
+        "I didn't quite get that. Can you ask something else?"
+      ]
+    }
+  ]
+}
